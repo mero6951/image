@@ -10,11 +10,40 @@
       <a-asset-item src="assets/TrexDetail0.obj" id="trex">
       <img id="sand" src="assets/sand.jpg">
       <a-asset-item id="gclass" src="assets/mercedes-benz_g-class_free_download.glb"></a-asset-item>
+      <a-asset-item id="tree" src="assets/decorative_tree.glb"></a-asset-item>
+<img id="trexSkin" src="assets/360_F_322113924_RAwjA08YXJyRL2ACccAqV50vQZvZuMfC.jpg">
+
+
     </a-assets>
 
 
-     <a-obj-model src="#trex" scale="0.015 0.015 0.015"  position="0 0 -12"></a-obj-model>
-      <a-gltf-model src="#gclass" position="3.5 3 -7" scale="0.05 0.05 0.05"  rotation="90 0 0"> </a-gltf-model>
+<a-obj-model
+  src="#trex"
+  position="0 0 -12"
+  scale="0.015 0.015 0.015"
+  material="src: #trexSkin; repeat: 1 1;">
+</a-obj-model>
+
+
+<a-gltf-model src="#gclass" position="3.5 3 -7" scale="0.05 0.05 0.05"  rotation="90 0 0"> </a-gltf-model>
+
+<a-gltf-model src="#tree" position="5 -1 -5.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="5 -1 5.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="3.5 -1 -8.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="-3.5 -1 -6.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="-7.5 -1 -0" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="3.5 -1 6.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="-5 -1 6.5" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="5 -1 -7" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="0 -1 4" scale="2 2 2"></a-gltf-model>
+<a-gltf-model src="#tree" position="-4 -1 -4" scale="2.5 2.5 2.5"></a-gltf-model>
+<a-gltf-model src="#tree" position="-8 -1 -8" scale="2.5 2.5 2.5"></a-gltf-model>
+<a-gltf-model src="#tree" position="8 -1 -8" scale="2.5 2.5 2.5"></a-gltf-model>
+<a-gltf-model src="#tree" position="-8 -1 8" scale="2.5 2.5 2.5"></a-gltf-model>
+
+
+
+
 
       <a-plane src="#sand" position="0 0 0" rotation="-90 0 0" width="40" height="40" ></a-plane>
       <a-sky src="#sky"></a-sky>
